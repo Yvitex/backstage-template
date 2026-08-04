@@ -25,7 +25,7 @@ spec:
           title: Environment
           type: string
           description: The environment where the component will be deploy
-					enum:
-					  - dev
-					  - prod
+          enum:
+            - dev
+            - prod
     
