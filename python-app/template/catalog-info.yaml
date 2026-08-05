@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ${{values.app_name}}
+  description: Displays time.
+  annotations:
+    github.com/project-slug: Yvitex/basic-app-py
+    backstage.io/techdocs-ref: dir:.
+
+spec:
+  type: ${{values.app_env}}
+  owner: development
+  lifecycle: experimental
