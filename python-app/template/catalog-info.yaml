@@ -4,7 +4,7 @@ metadata:
   name: ${{values.app_name}}
   description: Displays time.
   annotations:
-    github.com/project-slug: Yvitex/basic-app-py
+    github.com/project-slug: Yvitex/${{values.app_name}}
     backstage.io/techdocs-ref: dir:.
 
 spec:
